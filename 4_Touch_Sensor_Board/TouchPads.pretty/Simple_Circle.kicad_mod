@@ -1,0 +1,15 @@
+(footprint "Simple_Circle" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61F12F36)
+  (attr smd)
+  (fp_text reference "REF**" (at 1 0 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6919ceca-add4-40e0-ab4b-a1f58809f080)
+  )
+  (fp_text value "Simple_Circle" (at 0 2 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4c9fdea7-ba0c-45cc-8f66-240980c37d5c)
+  )
+  (fp_circle (center 0 0) (end -4.5 -5) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp 4db55cb8-197b-4402-871f-ce582b65664b))
+  (pad "1" smd circle (at 0 0) (size 12 12) (layers "F.Cu" "F.Mask") (tstamp 983c426c-24e0-4c65-ab69-1f1824adc5c6))
+)
